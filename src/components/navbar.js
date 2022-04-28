@@ -7,8 +7,10 @@ const Navbar = () => {
             <div className="nav_box">
                 <span className="my_shop">My Shoping </span>
                 <div className="cart">
-                    <span></span>
-                    <span></span>
+                    <span>
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <span>0</span>
                 </div>
              </div>
         </nav>
